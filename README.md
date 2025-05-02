@@ -22,7 +22,7 @@ The website demonstrates navigation, basic interactivity with JavaScript, and a 
 ## 🚀 Live Demo
 
 You can view the live website here:  
-👉 [Live Website](https://github.com/Pashokkkk/monopoly_club_website/)
+👉 [Live Website](https://pashokkkk.github.io/monopoly_club_website/)
 
 ---
 
