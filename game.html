@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+    <meta charset="utf-8"> 
+    <title>Monopoly</title> 
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" type="image/png" href="images/monopolyy.png">  
+</head>
+<body>
+    <header>
+        <div class="nav_line">
+             <img src="images/mm-removebg-preview.png" alt="Monopoly Logo" class="logo"> <!--https://www.isgcpatchclub.com/products/monopoly-trigger-man-->
+            <div> 
+                <nav>
+                    <a href="index.html">Homepage</a>
+                    <a href="events.html">Games Events Page</a>
+                    <a href="sign_up.html">Sign up Page</a>
+                    <a href="contact.html">Contact Us Page</a>
+                    <a href="about_us.html">About Us Page</a>
+                    <a href="game.html">Game</a>
+
+    
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main id="main-game">
+        <div class="two-column-layout">
+            <section class="left-column">
+                <div class="menu-container">
+                    <button class="menu-button">Menu</button>
+                    <div class="menu-content">
+                        <a href="https://en.wikipedia.org/wiki/Monopoly_(game)" class="menu-link" target="_blank">Monopoly Wiki</a>
+                        <a href="https://www.monopolygo.com/" class="menu-link" target="_blank">Monopoly Go</a>
+                    </div>
+                </div>
+                <img src="images/original-image.jpg" alt="Monopoly Image" class="hover-image" onmouseover="changeImage(this)" onmouseout="revertImage(this)">  <!--https://uk.pinterest.com/pin/ -->
+
+                <h3>Rate Our Website</h3>
+                <input type="range" id="rating" min="1" max="5" step="1" oninput="showRating(this.value)">
+                <p id="rating-message">Slide to rate!</p>
+            </section>
+        
+            <section class="right-column">
+                <h2>Enter Your Favourite Board Game</h2>
+                <input type="text" id="game-input" placeholder="Enter a Board Game!">
+                <button onclick="displayBoardGame()">Submit</button>
+                <p id="displayed-game"></p>
+            
+                <button onclick="compareBoardGame()">Compare with Random Board Game</button>
+                <p id="comparison-result"></p>
+
+                <img id="banner-image" src="images/game_image.jpg" alt="Game Image">
+
+                <section class="game-section">
+                    <button id="start-game-button">Start Game</button>
+            
+                    <div id="game-info" class="game-info hidden">
+                        <img id="game-image" src="images/question.jpg" alt="Game Image">
+                        <div class="game-details">
+                            <h2 id="game-name">The best bord game</h2>
+                            <p><strong>Year:</strong> <span id="game-year"></span></p>
+                            <p><strong>Category:</strong> <span id="game-category"></span></p>
+                            <p><strong>Designer:</strong> <span id="game-designer"></span></p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 MTU Monopoly Club. All Rights Reserved.</p>
+        <p>Contact us: <a href="mailto:khomliukpavlo@gmail.com">khomliukpavlo@gmail.com</a></p>
+	</footer>
+</body>
+</html>

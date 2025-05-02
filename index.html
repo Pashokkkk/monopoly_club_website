@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+    <!-- Basic page setup: language is set to Irish English -->
+    <meta charset="utf-8"> <!-- Ensures characters like € and é are displayed correctly -->
+    <title>Monopoly</title> <!-- The title that appears in the browser tab -->
+    <link rel="stylesheet" href="style.css"> <!-- Linking the CSS file to make the page look nice -->
+    <link rel="icon" type="image/png" href="images/monopolyy.png">  <!-- This sets the small icon (favicon) that appears in the browser tab next to the page title -->
+</head>
+<body>
+    <header>
+        <!-- Navigation bar at the top with the Monopoly logo and menu links -->
+        <div class="nav_line">
+            <img src="images/mm-removebg-preview.png" alt="Monopoly Logo" class="logo"> <!-- The Monopoly logo -->
+            <div>
+                <nav>
+                    <a href="index.html">Homepage</a>
+                    <a href="events.html">Games Events Page</a>
+                    <a href="sign_up.html">Sign up Page</a>
+                    <a href="contact.html">Contact Us Page</a>
+                    <a href="about_us.html">About Us Page</a>
+                    <a href="game.html">Game</a>
+                  </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Main content of the page -->
+        <h1>Welcome, visitor!</h1> <!-- Friendly heading to greet visitors -->
+        <h2>Step into the world of Monopoly, the timeless board game that has brought people together for decades.</h2> <!-- A short description -->
+        <a href="sign_up.html" class="cta-button">Join the Club</a> <!-- A call-to-action button for users to sign up -->
+
+        <section id="video">
+            <!-- Section for embedding a YouTube video -->
+            <h2>Learn More About Monopoly</h2>
+            <p>Watch this video to explore the history and strategies of Monopoly.</p>
+            <iframe src="https://www.youtube.com/embed/mkAcX4Lw7Is"></iframe> <!-- The video -->
+        </section>
+
+        <!-- Another section introducing a Monopoly gallery -->
+        <h1>Gallery of Monopoly Variants</h1>
+        <p>Discover some of the most iconic and unique versions of Monopoly!</p>
+        
+        <section id="three-column-layout">
+            <!-- This section has three columns, each showing a different Monopoly version -->
+            <div class="column">
+                <img src="images/classic-monopoly.jpg" alt="Classic Monopoly">  <!-- Image of Classic Monopoly -->
+                <h3>Classic Monopoly</h3>
+                <p>The original board game that started it all. A timeless classic for every player.</p>
+            </div>
+            <div class="column">
+                <img src="images/monopoly-speed.jpg" alt="Monopoly Speed">    <!-- Image of Monopoly Speed -->
+                <h3>Monopoly Speed</h3>
+                <p>A fast-paced version of the game for players on the go. Complete a game in under 10 minutes!</p>
+            </div>
+            <div class="column">
+                <img src="images/monopoly-deal.jpg" alt="Monopoly Deal">   <!-- Image of Monopoly Deal -->
+                <h3>Monopoly Deal</h3>
+                <p>A card-based twist on Monopoly. Play anywhere and enjoy the fun of deals and trades.</p>
+            </div>
+        </section>
+        <div class="navigation-grid">
+            <!-- Grid with quick navigation icons -->
+            <a href="index.html#video"><div class="grid-item"><i class="icon"><img src="images/multimedia.png" alt=""></i></div></a>
+            <a href="contact.html#map"><div class="grid-item"><i class="icon"><img src="images/map.png" alt=""></i></div></a>
+            <a href="about_us.html#faq"><div class="grid-item"><i class="icon"><img src="images/question.png" alt=""></i></div></a>
+        </div>
+    </main>
+    <footer>
+        <!-- Footer with copyright info and contact email -->
+        <p>&copy; 2024 MTU Monopoly Club. All Rights Reserved.</p>
+        <p>Contact us: <a href="mailto:info@mtumonopolyclub.ie">info@mtumonopolyclub.ie</a></p> <!-- Email link for contacting -->
+    </footer>
+</body>
+</html>
