@@ -42,7 +42,7 @@ You can view the live website here:
 
 ```bash
 git clone https://github.com/your-github-username/your-repo-name.git
-
+```
 2. Open index.html in your browser.
 
 No installation needed — it's pure front-end!
