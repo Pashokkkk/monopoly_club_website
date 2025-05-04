@@ -41,7 +41,7 @@ You can view the live website here:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-github-username/your-repo-name.git
+git clone https://github.com/Pashokkkk/monopoly_club_website.git
 ```
 2. Open index.html in your browser.
 
